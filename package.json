@@ -1,0 +1,32 @@
+{
+  "name": "obercube-rlp",
+  "description": "Recursive Length Prefix Encoding",
+  "version": "0.1.0",
+  "author": "Tommy Anderson",
+  "scripts": {
+    "test": "mocha --opts ./mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obercube/obercube-rlp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/obercube/obercube-rlp/issues"
+  },
+  "homepage": "https://github.com/obercube/obercube-rlp#readme",
+  "dependencies": {
+    "buffer": "5.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.2",
+    "@types/mocha": "5.0.0",
+    "@types/node": "9.6.0",
+    "chai": "4.1.2",
+    "mocha": "5.0.5",
+    "ts-node": "5.0.1",
+    "tslint": "5.9.1",
+    "tslint-microsoft-contrib": "5.0.3",
+    "tslint-no-unused-expression-chai": "0.1.3",
+    "typescript": "2.8.1"
+  }
+}

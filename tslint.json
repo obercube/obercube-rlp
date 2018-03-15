@@ -1,0 +1,30 @@
+{
+  "rulesDirectory": [
+    "tslint-microsoft-contrib",
+    "tslint-no-unused-expression-chai"
+  ],
+  "defaultSeverity": "warning",
+  "extends": [
+    "tslint-microsoft-contrib",
+    "tslint-no-unused-expression-chai"
+  ],
+  "rules": {
+    "missing-jsdoc": false,
+    "interface-name": false,
+    "newline-before-return": false,
+    "no-relative-imports": false,
+    "mocha-no-side-effect-code": false,
+    "binary-expression-operand-order": false,
+    "no-increment-decrement": false,
+    "chai-vague-errors": false,
+    "prefer-type-cast": false,
+    "no-any": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "typedef": [true,
+      "call-signature",
+      "parameter",
+      "property-declaration",
+      "member-variable-declaration"
+    ]
+  }
+}

@@ -7,7 +7,7 @@ describe('encode()', () => {
     let sut: Buffer;
 
     describe('typeof undefined', () => {
-        it('should encode', () => {
+        it('should handle', () => {
             sut = encode(undefined);
 
             expect(sut).to.have.lengthOf(1);
